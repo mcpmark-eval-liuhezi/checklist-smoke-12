@@ -57,3 +57,11 @@ No team memberships were returned for the authenticated user.
 - total_additions = 8
 - total_deletions = 0
 FINGERPRINT=b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5
+
+## Gist step error
+
+The secret gist creation attempt failed with the following verbatim error ( attempts: 2 ):
+
+failed to create gist: POST https://api.github.com/gists: 403 Resource not accessible by personal access token []
+
+No gist was created; this report file in the repository serves as the evidence copy.
