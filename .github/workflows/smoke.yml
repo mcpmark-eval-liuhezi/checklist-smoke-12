@@ -1,0 +1,9 @@
+name: Smoke Test
+on:
+  workflow_dispatch:
+jobs:
+  smoke-marker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo marker
+        run: echo "checklist-smoke marker ok"
